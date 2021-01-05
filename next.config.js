@@ -1,3 +1,0 @@
-moduel.exports = {
-    
-}
