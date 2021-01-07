@@ -20,6 +20,6 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true
 	},
-	"include": ["**/*.ts", "**/*.tsx"],
+	"include": ["**/*.ts", "**/*.tsx", "pages/_app.js"],
 	"exclude": ["node_modules"]
 }
