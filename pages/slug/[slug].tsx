@@ -10,7 +10,8 @@ export default function Main({
 	console.log(params);
 	return (
 		<div>
-			<p>{}</p>
+			<p>{params[0].id}</p>
+			<p>Page</p>
 		</div>
 	);
 }
@@ -19,26 +20,14 @@ export const getStaticProps: GetStaticProps = async (params) => {
 		.data;
 	return {
 		props: {
-			res,
+			params: res,
 		},
 	};
 };
 
 export async function getStaticPaths() {
-	const res: ID[] = (await Axios.get("http://localhost:3000/index.json"))
-		.data;
-
-	const paths = res.map((data) => {
-		const re = {
-			data: {
-				slug: data.id,
-			},
-		};
-		return re;
-	});
-
 	return {
-		paths: paths,
+		paths: [{ params: { slug: "1" } }, { params: { slug: "2" } }],
 		fallback: false,
 	};
 }
