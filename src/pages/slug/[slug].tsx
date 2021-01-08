@@ -15,9 +15,9 @@ export default function Main({
 	);
 }
 export const getStaticProps: GetStaticProps = async (slug) => {
-	const res: Id[] = (
-		await Axios.get(`http://localhost:3000/slug${slug.params.slug}.json`)
-	).data;
+	const res: Id[] = // eslint-disable-next-line
+	(await Axios.get(`http://localhost:3000/slug${slug.params.slug}.json`))
+		.data;
 	return {
 		props: {
 			params: res,

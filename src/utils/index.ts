@@ -1,4 +1,3 @@
-export default function Main()
-{
-    return false
+export default function Main() {
+	return false;
 }
