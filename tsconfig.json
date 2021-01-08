@@ -24,9 +24,7 @@
 			"@utils/*": ["utils/*"],
 			"@lib/*": ["lib/*"],
 			"@src/*": ["/*"],
-			"@pages/*": [
-				"pages/*"
-			]
+			"@pages/*": ["pages/*"]
 		}
 	},
 	"exclude": ["node_modules"],
