@@ -16,8 +16,27 @@
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
-		"allowSyntheticDefaultImports": true
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "src",
+		"paths": {
+			"@components/*": [
+				"components/*"
+			],
+			"@styles/*": [
+				"styles/*"
+			],
+			"@utils/*": [
+				"utils/*"
+			],
+			"@lib/*": [
+				"lib/*"
+			],
+			"@src/*": [
+				"/*"
+			],
+
+		}
 	},
 	"exclude": ["node_modules"],
-	"include": ["**/*.ts", "**/*.tsx", "src/pages/_document.js"]
+	"include": ["**/*.ts", "**/*.tsx", "src/pages/_document.js", "src/pages/_error.js"]
 }

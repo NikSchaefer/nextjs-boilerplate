@@ -1,4 +1,3 @@
-// 404.js
 import Link from "next/link";
 
 // eslint-disable-next-line import/no-default-export
