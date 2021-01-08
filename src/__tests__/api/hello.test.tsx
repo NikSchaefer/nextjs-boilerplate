@@ -1,4 +1,4 @@
-import hello from "../../pages/api/hello";
+import hello from "@pages/api/hello";
 
 describe("/index", () => {
 	test("Index Test", () => {
