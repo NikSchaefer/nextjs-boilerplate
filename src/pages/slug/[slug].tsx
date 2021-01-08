@@ -1,8 +1,8 @@
 import Axios from "axios";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
-interface ID  {
+interface Id {
 	id: string;
-};
+}
 
 export default function Main({
 	params,
@@ -15,8 +15,9 @@ export default function Main({
 	);
 }
 export const getStaticProps: GetStaticProps = async (slug) => {
-	const res: ID[] = (await Axios.get(`http://localhost:3000/slug${slug.params.slug}.json`))
-		.data;
+	const res: Id[] = (
+		await Axios.get(`http://localhost:3000/slug${slug.params.slug}.json`)
+	).data;
 	return {
 		props: {
 			params: res,
@@ -25,7 +26,7 @@ export const getStaticProps: GetStaticProps = async (slug) => {
 };
 
 export async function getStaticPaths() {
-	const res: ID[] = (await Axios.get("http://localhost:3000/index.json"))
+	const res: Id[] = (await Axios.get("http://localhost:3000/index.json"))
 		.data;
 
 	const paths = res.map((data) => {
