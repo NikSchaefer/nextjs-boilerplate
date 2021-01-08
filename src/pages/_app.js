@@ -1,10 +1,10 @@
 import "../styles/globals.css";
 import Head from "next/head";
+
 import Footer from "../components/footer";
 import Header from "../components/footer";
 
-// has Header acn Footer on every page
-
+// eslint-disable-next-line import/no-default-export
 export default function MyApp({ Component, pageProps }) {
 	return (
 		<div>
@@ -14,11 +14,11 @@ export default function MyApp({ Component, pageProps }) {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<Header></Header>
+			<Header />
 
 			<Component {...pageProps} />
 
-			<Footer></Footer>
+			<Footer />
 		</div>
 	);
 }

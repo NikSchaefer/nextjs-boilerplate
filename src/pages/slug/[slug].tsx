@@ -1,12 +1,13 @@
 import Axios from "axios";
-import { GetStaticProps, InferGetStaticPropsType } from "next";
-interface Id {
-	id: string;
-}
+import { GetStaticProps, InferGetStaticPropsType, GetStaticPaths } from "next";
 
+type Id = {
+	id: string;
+};
+// eslint-disable-next-line import/no-default-export
 export default function Main({
 	params,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+}: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element {
 	return (
 		<div>
 			<p>{params.data}</p>
@@ -15,9 +16,11 @@ export default function Main({
 	);
 }
 export const getStaticProps: GetStaticProps = async (slug) => {
-	const res: Id[] = // eslint-disable-next-line
-	(await Axios.get(`http://localhost:3000/slug${slug.params.slug}.json`))
-		.data;
+	const res: Id[] = (
+		await Axios.get(
+			`http://localhost:3000/slug${String(slug.params.slug)}.json`
+		)
+	).data;
 	return {
 		props: {
 			params: res,
@@ -25,7 +28,7 @@ export const getStaticProps: GetStaticProps = async (slug) => {
 	};
 };
 
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async function () {
 	const res: Id[] = (await Axios.get("http://localhost:3000/index.json"))
 		.data;
 
@@ -33,7 +36,8 @@ export async function getStaticPaths() {
 		return { params: { slug: data.id } };
 	});
 	return {
+		// eslint-disable-next-line object-shorthand
 		paths: paths,
 		fallback: false,
 	};
-}
+};

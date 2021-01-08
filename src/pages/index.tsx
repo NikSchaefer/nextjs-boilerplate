@@ -1,4 +1,6 @@
 import "../styles/home.module.css";
-export default function Home() {
-	return <main></main>;
+
+// eslint-disable-next-line import/no-default-export
+export default function Home(): JSX.Element {
+	return <main />;
 }
