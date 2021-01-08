@@ -1,7 +1,7 @@
 {
 	"trailingSlash": false,
-  "redirects": [],
-  "github": {
-    "silent": true
-  }
+	"redirects": [],
+	"github": {
+		"silent": true
+	}
 }

@@ -1,4 +1,4 @@
-import index from '../pages';
+import index from "../pages";
 
 describe("/index", () => {
 	test("Index Test", () => {

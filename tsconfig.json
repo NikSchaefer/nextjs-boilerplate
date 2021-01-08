@@ -19,24 +19,18 @@
 		"allowSyntheticDefaultImports": true,
 		"baseUrl": "src",
 		"paths": {
-			"@components/*": [
-				"components/*"
-			],
-			"@styles/*": [
-				"styles/*"
-			],
-			"@utils/*": [
-				"utils/*"
-			],
-			"@lib/*": [
-				"lib/*"
-			],
-			"@src/*": [
-				"/*"
-			],
-
+			"@components/*": ["components/*"],
+			"@styles/*": ["styles/*"],
+			"@utils/*": ["utils/*"],
+			"@lib/*": ["lib/*"],
+			"@src/*": ["/*"]
 		}
 	},
 	"exclude": ["node_modules"],
-	"include": ["**/*.ts", "**/*.tsx", "src/pages/_document.js", "src/pages/_error.js"]
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"src/pages/_document.js",
+		"src/pages/_error.js"
+	]
 }
