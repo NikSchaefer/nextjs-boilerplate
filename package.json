@@ -1,8 +1,15 @@
 {
 	"name": "my-app",
 	"version": "0.1.0",
-	"author": "Nik Schaefer",
+	"author": "Nik Schaefer <nikkschaefer@gmail.com>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NikSchaefer/"
+	},
+	"keywords": [
+		"NextJS"
+	],
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
