@@ -32,6 +32,7 @@
 		"**/*.ts",
 		"**/*.tsx",
 		"src/pages/_document.js",
-		"src/pages/_error.js"
+		"src/pages/_error.js",
+		"src/lib/gtag.js"
 	]
 }

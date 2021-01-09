@@ -1,2 +1,2 @@
-// Put Types here
+// Put Types and interfaces here
 export {};
