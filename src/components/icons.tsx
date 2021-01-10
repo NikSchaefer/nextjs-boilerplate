@@ -12,10 +12,10 @@ export default function Icon(data: { name: string }): JSX.Element {
 	}
 }
 
-/* 
+/*
 
 // directory
-import Icon from './icons' 
+import Icon from './icons'
 
 // Icon
 <Icon name="Github" />
