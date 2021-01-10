@@ -1,11 +1,8 @@
 // import index from '@pages/index'
 
 // mock test code
-describe("/index", () =>
-{
+describe("/index", () => {
 	test("Index Test", () => {
 		expect(true).toBe(true);
 	});
 });
-
-
