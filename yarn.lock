@@ -2900,7 +2900,7 @@ eslint-ast-utils@^1.1.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-galex@^2.10.4:
+eslint-config-galex@^2.10.5:
   version "2.10.5"
   resolved "https://registry.yarnpkg.com/eslint-config-galex/-/eslint-config-galex-2.10.5.tgz#d0446a9cec91aeae15101a1988fda47dfeeb68b3"
   integrity sha512-aDP41J8gH+WUQsAa7LO/T2VOzwIVqt1ArocdNLYCZ3QqO30xLkAKxVDDHGl+J0SLCHo207jQ2gJufeuwtLhKgA==
