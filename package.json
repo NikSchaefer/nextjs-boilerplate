@@ -14,10 +14,11 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"clean": "yarn prettier --write .",
+		"clean": "npx prettier --write .",
 		"test": "jest"
 	},
 	"dependencies": {
+		"@babel/core": "^7.12.10",
 		"@types/node": "^14.14.22",
 		"@types/react": "^17.0.0",
 		"axios": "^0.21.1",

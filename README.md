@@ -11,6 +11,8 @@ Click use this template or clone with
 
 install dependicies `npm i` or `yarn`
 
+install prettier globally `npm i -g prettier`
+
 ## Commands
 
 To run on local development server `npm run dev`
