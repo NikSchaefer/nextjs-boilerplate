@@ -22,8 +22,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 	return (
 		<div>
 			<Head>
-				{/* Meta Data on every page */}
-				<title>New App</title>
+				<title>NextJS Boilerplate | Nik Schaefer</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
