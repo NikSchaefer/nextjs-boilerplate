@@ -20,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 		};
 	}, [router.events]);
 	return (
-		<div>
+		<>
 			<Head>
 				<title>NextJS Boilerplate | Nik Schaefer</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -31,6 +31,6 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 			<Component {...pageProps} />
 
 			<Footer />
-		</div>
+		</>
 	);
 }
