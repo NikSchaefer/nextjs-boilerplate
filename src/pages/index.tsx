@@ -1,4 +1,4 @@
-import { FaReact } from 'react-icons/fa'
+import { FaReact } from "react-icons/fa";
 import { GiFeather } from "react-icons/gi";
 import {
 	SiTypescript,
@@ -105,7 +105,15 @@ export default function Home(): JSX.Element {
 				<Box>
 					<FaReact size="40px" color="green" />
 					<h2>React Icons</h2>
-					<p>Icons from popular packages. <a style={{color:'#00ffaa'}} href="https://react-icons.github.io/react-icons">All Icons</a> </p>
+					<p>
+						Icons from popular packages.{" "}
+						<a
+							style={{ color: "#00ffaa" }}
+							href="https://react-icons.github.io/react-icons"
+						>
+							All Icons
+						</a>{" "}
+					</p>
 				</Box>
 			</FlexContainer>
 		</Container>
