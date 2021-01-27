@@ -1,3 +1,4 @@
+import { FaReact } from 'react-icons/fa'
 import { GiFeather } from "react-icons/gi";
 import {
 	SiTypescript,
@@ -6,7 +7,6 @@ import {
 	SiJest,
 	SiStyleshare,
 } from "react-icons/si";
-import { FaReact } from 'react-icons/fa'
 import styled from "styled-components";
 
 import { NextJS } from "../components/icons";
