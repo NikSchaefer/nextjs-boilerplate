@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"@babel/core": "^7.12.10",
-		"next": "10.0.5",
+		"next": "10.0.6",
 		"react": "17.0.1",
 		"react-dom": "17.0.1",
 		"react-icons": "^4.1.0",
