@@ -1,6 +1,7 @@
-import { GA_TRACKING_ID } from "@src/config.ts";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+
+import { GA_TRACKING_ID, META } from "../config.ts";
 // eslint-disable-next-line import/no-default-export
 export default class MyDocument extends Document {
 	static async getInitialProps(ctx) {
@@ -35,44 +36,44 @@ export default class MyDocument extends Document {
 					<title>NextJS Boilerplate | Nik Schaefer</title>
 					<meta
 						name="description"
-						content="Boilerplate built to scale containing Typescript + NextJS + Google Analytics + ESLint + Jest + Styled Components + Icons"
+						content={META.description}
 					/>
 
 					<meta
 						itemProp="name"
-						content="NextJS Boilerplate | Nik Schaefer"
+						content={META.title}
 					/>
 					<meta
 						itemProp="description"
-						content="Boilerplate built to scale containing Typescript + NextJS + Google Analytics + ESLint + Jest + Styled Components + Icons"
+						content={META.description}
 					/>
-					<meta itemProp="image" content="/logo.png" />
+					<meta itemProp="image" content={META.image} />
 
 					<meta
 						property="og:url"
-						content="https://boilerplate.nikschaefer.tech"
+						content={META.url}
 					/>
 					<meta property="og:type" content="website" />
 					<meta
 						property="og:title"
-						content="NextJS Boilerplate | Nik Schaefer"
+						content={META.title}
 					/>
 					<meta
 						property="og:description"
-						content="Boilerplate built to scale containing Typescript + NextJS + Google Analytics + ESLint + Jest + Styled Components + Icons"
+						content={META.description}
 					/>
-					<meta property="og:image" content="/logo.png" />
+					<meta property="og:image" content={META.image} />
 
 					<meta name="twitter:card" content="summary_large_image" />
 					<meta
 						name="twitter:title"
-						content="NextJS Boilerplate | Nik Schaefer"
+						content={META.title}
 					/>
 					<meta
 						name="twitter:description"
-						content="Boilerplate built to scale containing Typescript + NextJS + Google Analytics + ESLint + Jest + Styled Components + Icons"
+						content={META.description}
 					/>
-					<meta name="twitter:image" content="/logo.png" />
+					<meta name="twitter:image" content={META.image} />
 
 					<script
 						async
