@@ -18,4 +18,4 @@ const META: MetaType = {
     image: "/logo.png",
     url: "https://boilerplate.nikschaefer.tech"
 }
-export {META}
+export { META }
