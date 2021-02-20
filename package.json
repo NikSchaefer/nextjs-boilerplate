@@ -18,7 +18,7 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"@babel/core": "^7.12.16",
+		"@babel/core": "^7.12.17",
 		"next": "10.0.7",
 		"react": "17.0.1",
 		"react-dom": "17.0.1",
