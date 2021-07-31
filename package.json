@@ -31,7 +31,7 @@
 		"@types/babel__core": "^7.1.15",
 		"@types/jest": "^26.0.24",
 		"@types/node": "^16.4.7",
-		"@types/react": "^17.0.14",
+		"@types/react": "^17.0.15",
 		"@types/styled-components": "^5.1.11",
 		"babel-plugin-styled-components": "^1.13.2",
 		"eslint": "^7.31.0",
