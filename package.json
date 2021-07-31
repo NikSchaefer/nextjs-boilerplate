@@ -35,7 +35,7 @@
 		"@types/styled-components": "^5.1.11",
 		"babel-plugin-styled-components": "^1.13.2",
 		"eslint": "^7.31.0",
-		"eslint-config-galex": "^2.16.6",
+		"eslint-config-galex": "^2.16.7",
 		"jest": "^27.0.6",
 		"jest-watch-typeahead": "^0.6.4",
 		"prettier": "^2.3.2"
