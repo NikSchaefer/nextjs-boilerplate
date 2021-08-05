@@ -30,7 +30,7 @@
 		"@babel/preset-typescript": "^7.15.0",
 		"@types/babel__core": "^7.1.15",
 		"@types/jest": "^26.0.24",
-		"@types/node": "^16.4.11",
+		"@types/node": "^16.4.12",
 		"@types/react": "^17.0.15",
 		"@types/styled-components": "^5.1.11",
 		"babel-plugin-styled-components": "^1.13.2",
