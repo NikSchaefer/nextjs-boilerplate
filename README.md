@@ -1,6 +1,6 @@
-# Read me
+# NextJS Boilerplate
 
-Proper Readme will follow
+This is a boilerplate codebase that can be used for various other projects and is set as a baseline for testing, linting, and structure.
 
 ## Stack
 - Typescript
