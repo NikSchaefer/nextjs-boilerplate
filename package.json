@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"@babel/core": "^7.18.10",
-		"next": "12.2.4",
+		"next": "12.2.5",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"react-icons": "^4.4.0",
