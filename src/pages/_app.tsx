@@ -1,13 +1,11 @@
 import "@styles/global.css";
-import Footer from "@components/footer";
-import Header from "@components/header";
 import { pageview } from "@lib/gtag";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { NextSeo } from "next-seo";
 
-// eslint-disable-next-line import/no-default-export
 export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 	const router = useRouter();
 	useEffect(() => {
@@ -25,12 +23,23 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 				<title>NextJS Boilerplate | Nik Schaefer</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-
-			<Header />
+			<NextSeo
+				title="Home"
+				defaultTitle="Title"
+				titleTemplate="%s | NextJS Boilerplate | Nik Schaefer"
+				description="A NextJS boilerplate with TypeScript, ESLint, Prettier, TailwindCSS, and Google Analytics."
+				canonical="https://nextjs-boilerplate.vercel.app/"
+				openGraph={{
+					url: "https://nextjs-boilerplate.vercel.app/",
+					title: "NextJS Boilerplate | Nik Schaefer",
+					description:
+						"A NextJS boilerplate with TypeScript, ESLint, Prettier, TailwindCSS, and Google Analytics.",
+					images: [],
+					site_name: "NextJS Boilerplate | Nik Schaefer",
+				}}
+			/>
 
 			<Component {...pageProps} />
-
-			<Footer />
 		</>
 	);
 }
