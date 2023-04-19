@@ -33,9 +33,6 @@ integration for easy CI/CD setup.
 📦 Install dependencies
 
 ```npm install```
-
-📊 Configure Google Analytics: Replace the GA_MEASUREMENT_ID in the `config.ts` file
-   with your Google Analytics measurement ID.
    
 🏗️ Start the development server: 
 
