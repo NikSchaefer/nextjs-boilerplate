@@ -22,14 +22,26 @@ integration for easy CI/CD setup.
 
 ## Quickstart 🚀
 
-1. 💾 Clone the repository: git clone
-   https://github.com/{YOUR_GITHUB_USERNAME}/{YOUR_REPO_NAME}.git
-2. 📂 Change directory to the cloned repository: cd {YOUR_REPO_NAME}
-3. 📦 Install dependencies: npm install or yarn install
-4. 📊 Configure Google Analytics: Replace the GA_MEASUREMENT_ID in the .env file
+💾 Clone the repository
+
+```git clone https://github.com/{YOUR_GITHUB_USERNAME}/{YOUR_REPO_NAME}.git```
+
+📂 Change directory to the cloned repository
+
+```cd {YOUR_REPO_NAME}```
+
+📦 Install dependencies
+
+```npm install```
+
+📊 Configure Google Analytics: Replace the GA_MEASUREMENT_ID in the `config.ts` file
    with your Google Analytics measurement ID.
-5. 🏗️ Start the development server: npm run dev or yarn dev
-6. 🌐 Open your browser and go to http://localhost:3000 to see the Next.js app
+   
+🏗️ Start the development server: 
+
+```npm run dev or yarn dev```
+
+🌐 Open your browser and go to `http://localhost:3000` to see the Next.js app
    running locally.
 
 ## Deployment 🛠️
@@ -37,27 +49,25 @@ integration for easy CI/CD setup.
 This boilerplate is configured to be easily deployed to Vercel. You can deploy
 the app to Vercel by following these steps:
 
-1. 🚀 Sign up for a free account on Vercel: https://vercel.com/signup
-2. 💻 Install the Vercel CLI globally on your machine: npm install -g vercel or
-   yarn global add vercel
-3. 🔑 Authenticate with your Vercel account: vercel login
-4. 🌍 Deploy the app: vercel
+1. 🚀 Sign up for a free account on Vercel: `https://vercel.com/signup`
+2. 💻 Install the Vercel CLI globally on your machine: `npm install -g vercel`
+3. 🔑 Authenticate with your Vercel account: `vercel login`
+4. 🌍 Deploy the app: `vercel`
 5. 🎉 Follow the prompts to deploy the app to Vercel. Once deployed, you will
    receive a unique URL where your app is live.
 
 ## Resources 🎨
 
-[Next.js Documentation](https://nextjs.org/docs)
-[TailwindCSS Documentation](https://tailwindcss.com/docs)
-[TypeScript Documentation](https://www.typescriptlang.org/docs/)
-[Prettier Documentation](https://prettier.io/docs/en/)
-[Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
-[Vercel Documentation](https://vercel.com/docs)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TailwindCSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Prettier Documentation](https://prettier.io/docs/en/)
+- [Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
+- [Vercel Documentation](https://vercel.com/docs)
 
 ## Contact 💡
 
-If you have any questions or suggestions regarding this project, feel free to
-reach out to us. You can contact us via the following methods:
+If you have any questions or suggestions regarding this project, or just want to say hi. You can contact us via the following methods:
 
 -   📧 Email: nikkschaefer@gmail.com
 -   🐦 Portfolio: https://nikschaefer.com
