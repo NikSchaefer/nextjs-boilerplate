@@ -16,7 +16,7 @@ integration for easy CI/CD setup.
 -   🔧 Prettier: An opinionated code formatter that enforces consistent code
     style for better code readability.
 -   📊 Google Analytics: Integrated tracking of user interactions and events for
-    monitoring and analyzing website traffic.
+    monitoring and analyzing traffic.
 -   🌍 Vercel: CI/CD integration with Vercel for seamless deployment and hosting
     of Next.js applications.
 
