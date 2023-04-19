@@ -24,11 +24,11 @@ integration for easy CI/CD setup.
 
 💾 Clone the repository
 
-```git clone https://github.com/{YOUR_GITHUB_USERNAME}/{YOUR_REPO_NAME}.git```
+```git clone https://github.com/NikSchaefer/nextjs-boilerplate.git```
 
 📂 Change directory to the cloned repository
 
-```cd {YOUR_REPO_NAME}```
+```cd nextjs-boilerplate```
 
 📦 Install dependencies
 
