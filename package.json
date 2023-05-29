@@ -30,7 +30,7 @@
 	},
 	"devDependencies": {
 		"@babel/preset-typescript": "^7.21.4",
-		"@types/babel__core": "^7.20.0",
+		"@types/babel__core": "^7.20.1",
 		"@types/jest": "^29.5.0",
 		"@types/node": "^20.2.3",
 		"@types/react": "^18.2.6",
