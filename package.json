@@ -20,7 +20,7 @@
 	"dependencies": {
 		"clsx": "^1.2.1",
 		"lucide-react": "^0.260.0",
-		"next": "13.4.3",
+		"next": "13.4.11",
 		"next-seo": "^6.0.0",
 		"next-sitemap": "^4.0.9",
 		"react": "18.2.0",
