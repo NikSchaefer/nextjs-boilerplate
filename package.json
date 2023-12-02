@@ -28,7 +28,7 @@
 		"typescript": "^4.9.5"
 	},
 	"devDependencies": {
-		"@babel/preset-typescript": "^7.21.4",
+		"@babel/preset-typescript": "^7.23.3",
 		"@types/node": "^20.10.1",
 		"@types/react": "^18.2.41",
 		"autoprefixer": "^10.4.14",
