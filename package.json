@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"clsx": "^1.2.1",
-		"lucide-react": "^0.294.0",
+		"lucide-react": "^0.299.0",
 		"next": "14.0.4",
 		"next-seo": "^6.0.0",
 		"next-sitemap": "^4.2.2",
