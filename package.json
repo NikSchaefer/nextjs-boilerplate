@@ -18,7 +18,7 @@
 		"clean": "npx prettier --write ."
 	},
 	"dependencies": {
-		"clsx": "^1.2.1",
+		"clsx": "^2.1.0",
 		"lucide-react": "^0.302.0",
 		"next": "14.0.4",
 		"next-seo": "^6.0.0",
