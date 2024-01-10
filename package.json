@@ -22,7 +22,7 @@
 		"lucide-react": "^0.309.0",
 		"next": "14.0.4",
 		"next-seo": "^6.0.0",
-		"next-sitemap": "^4.2.2",
+		"next-sitemap": "^4.2.3",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"typescript": "^4.9.5"
