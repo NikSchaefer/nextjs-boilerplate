@@ -1,8 +1,6 @@
-import Layout from "@components/layout";
-
-export default function Home(): JSX.Element {
+export default function Page() {
 	return (
-		<Layout>
+		<div className="w-full h-full bg-gray-700 flex items-center justify-center">
 			<div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 bg-gray-900 text-gray-100">
 				<img
 					src="/astro.svg"
@@ -15,7 +13,7 @@ export default function Home(): JSX.Element {
 							NextJS Boilerplate
 						</h1>
 						<p className="px-5 text-xs sm:text-base text-gray-400">
-							Edit `index.tsx` to begin
+							Edit `page.tsx` to begin
 						</p>
 					</div>
 					<div className="flex justify-center pt-2 space-x-4 align-center">
@@ -35,6 +33,6 @@ export default function Home(): JSX.Element {
 					</div>
 				</div>
 			</div>
-		</Layout>
+		</div>
 	);
 }

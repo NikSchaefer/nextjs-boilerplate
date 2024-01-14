@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.h0 {
+	@apply text-2xl md:text-3xl;
+}
+
+.h1,
+h1 {
+	@apply text-[36px] sm:text-[45px] lg:text-[57px];
+}
+
+.h15 {
+	@apply text-[24px] sm:text-[30px] lg:text-[40px];
+}
+
+.h2,
+h2 {
+	@apply text-[24px] sm:text-[28px] lg:text-[32px];
+}
+
+.h3,
+h3 {
+	@apply text-[14px] sm:text-[16px] lg:text-[22px];
+}
+
+.h4,
+h4 {
+	@apply text-[12px] sm:text-[14px] lg:text-[16px];
+}
+
+.h5,
+h5 {
+	@apply text-[11px] sm:text-[12px] lg:text-[14px];
+}
+
+.h6,
+h6 {
+	@apply text-[10px] sm:text-[11px] lg:text-[12px];
+}
+
+.h7 {
+	@apply text-[9px] sm:text-[10px] lg:text-[11px];
+}

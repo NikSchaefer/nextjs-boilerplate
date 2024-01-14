@@ -1,22 +1,25 @@
 # ☂️ NextJS Boilerplate
 
 This is a NextJS boilerplate that comes with TailwindCSS, Typescript, Prettier,
-and Google Analytics, making it easy for you to kickstart your Next.js projects
-with modern web development tools and best practices. It also includes Vercel
-integration for easy CI/CD setup.
+and Mixpanel, making it easy for you to kickstart your Next.js projects with
+modern web development tools and best practices. It also includes Vercel
+integration for easy CI/CD setup and uses the shadcn/ui design system.
 
 ## Features 🔥
 
 -   🚀 Next.js: A popular React framework for building server-rendered React
     applications.
+-   🎨 Comprehensive Design System: Built with
+    [shadcn/ui](https://ui.shadcn.com/), a high quality design system for
+    building modern web applications.
 -   💅 TailwindCSS: A highly customizable CSS framework for building modern user
     interfaces.
 -   🔍 Typescript: A statically typed superset of JavaScript that provides
     better code quality and error checking.
 -   🔧 Prettier: An opinionated code formatter that enforces consistent code
     style for better code readability.
--   📊 Google Analytics: Integrated tracking of user interactions and events for
-    monitoring and analyzing traffic.
+-   📊 Mixpanel Tracking: Integrated tracking of user interactions and events
+    for monitoring and analyzing traffic.
 -   🌍 Vercel: CI/CD integration with Vercel for seamless deployment and hosting
     of Next.js applications.
 
@@ -24,22 +27,22 @@ integration for easy CI/CD setup.
 
 💾 Clone the repository
 
-```git clone https://github.com/NikSchaefer/nextjs-boilerplate.git```
+`git clone https://github.com/NikSchaefer/nextjs-boilerplate.git`
 
 📂 Change directory to the cloned repository
 
-```cd nextjs-boilerplate```
+`cd nextjs-boilerplate`
 
 📦 Install dependencies
 
-```npm install```
-   
-🏗️ Start the development server: 
+`npm install`
 
-```npm run dev or yarn dev```
+🏗️ Start the development server:
+
+`npm run dev or yarn dev`
 
 🌐 Open your browser and go to `http://localhost:3000` to see the Next.js app
-   running locally.
+running locally.
 
 ## Deployment 🛠️
 
@@ -55,16 +58,20 @@ the app to Vercel by following these steps:
 
 ## Resources 🎨
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [TailwindCSS Documentation](https://tailwindcss.com/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Prettier Documentation](https://prettier.io/docs/en/)
-- [Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
-- [Vercel Documentation](https://vercel.com/docs)
+-   [Next.js Documentation](https://nextjs.org/docs)
+-   [shadcn/ui Documentation](https://ui.shadcn.com/)
+-   [SWR Documentation](https://swr.vercel.app/)
+-   [Axios Documentation](https://axios-http.com/docs/intro)
+-   [TailwindCSS Documentation](https://tailwindcss.com/docs)
+-   [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+-   [Prettier Documentation](https://prettier.io/docs/en/)
+-   [Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
+-   [Vercel Documentation](https://vercel.com/docs)
 
 ## Contact 💡
 
-If you have any questions or suggestions regarding this project, or just want to say hi. You can contact us via the following methods:
+If you have any questions or suggestions regarding this project, or just want to
+say hi. You can contact us via the following methods:
 
 -   📧 Email: nikkschaefer@gmail.com
 -   🐦 Portfolio: https://nikschaefer.com
