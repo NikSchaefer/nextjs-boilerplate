@@ -12,6 +12,9 @@ integration for easy CI/CD setup and uses the shadcn/ui design system.
 -   🎨 Comprehensive Design System: Built with
     [shadcn/ui](https://ui.shadcn.com/), a high quality design system for
     building modern web applications.
+-   📦 SWR: A React Hooks library for remote data fetching.
+-   📂 Lucide: A comprehensive & beautiful icon set with over 1,400 icons.
+    [lucide](https://lucide.dev)
 -   💅 TailwindCSS: A highly customizable CSS framework for building modern user
     interfaces.
 -   🔍 Typescript: A statically typed superset of JavaScript that provides

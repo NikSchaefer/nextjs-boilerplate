@@ -30,3 +30,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+robots.txt
+sitemap.xml
+sitemap-0.xml
