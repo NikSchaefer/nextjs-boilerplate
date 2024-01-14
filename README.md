@@ -68,7 +68,7 @@ the app to Vercel by following these steps:
 -   [TailwindCSS Documentation](https://tailwindcss.com/docs)
 -   [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 -   [Prettier Documentation](https://prettier.io/docs/en/)
--   [Google Analytics Documentation](https://developers.google.com/analytics/devguides/collection/gtagjs)
+-   [Mixpanel Documentation](https://docs.mixpanel.com/docs/what-is-mixpanel)
 -   [Vercel Documentation](https://vercel.com/docs)
 
 ## Contact 💡
