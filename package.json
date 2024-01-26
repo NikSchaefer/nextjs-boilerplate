@@ -50,7 +50,7 @@
 		"cmdk": "^0.2.0",
 		"date-fns": "^3.2.0",
 		"embla-carousel-react": "^8.0.0-rc19",
-		"lucide-react": "^0.309.0",
+		"lucide-react": "^0.316.0",
 		"mixpanel-browser": "^2.48.1",
 		"next": "14.0.4",
 		"next-seo": "^6.0.0",
