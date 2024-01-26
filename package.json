@@ -73,7 +73,7 @@
 	"devDependencies": {
 		"@babel/preset-typescript": "^7.21.4",
 		"@types/mixpanel-browser": "^2.48.1",
-		"@types/node": "^20.10.8",
+		"@types/node": "^20.11.7",
 		"@types/react": "^18.2.45",
 		"autoprefixer": "^10.4.14",
 		"eslint": "^8.54.0",
