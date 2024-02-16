@@ -53,7 +53,7 @@
 		"lucide-react": "^0.321.0",
 		"mixpanel-browser": "^2.48.1",
 		"next": "14.0.4",
-		"next-seo": "^6.0.0",
+		"next-seo": "^6.5.0",
 		"next-sitemap": "^4.2.2",
 		"next-themes": "^0.2.1",
 		"react": "18.2.0",
