@@ -1,6 +1,6 @@
 "use client";
 
-import { IS_PRODUCTION, MIXPANEL_TOKEN } from "../../config";
+import { IS_PRODUCTION, MIXPANEL_TOKEN } from "config";
 import Script from "next/script";
 import { useEffect } from "react";
 import mixpanel from "mixpanel-browser";
