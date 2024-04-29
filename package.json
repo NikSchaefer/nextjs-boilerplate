@@ -73,7 +73,7 @@
 		"zustand": "^4.5.2"
 	},
 	"devDependencies": {
-		"@babel/preset-typescript": "^7.21.4",
+		"@babel/preset-typescript": "^7.24.1",
 		"@types/mixpanel-browser": "^2.48.1",
 		"@types/node": "^20.11.16",
 		"@types/react": "^18.2.53",
